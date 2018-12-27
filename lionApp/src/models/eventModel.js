@@ -28,7 +28,7 @@ export const EventSchema = new Schema({
         type: String
     },
     link: {
-        type: string
+        type: String
     },
     tag: {
         type: String

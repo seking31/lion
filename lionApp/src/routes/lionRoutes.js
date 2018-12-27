@@ -45,10 +45,8 @@ const routes = (app) => {
 
     // delete request
     .delete(deleteInventory);
-}
 
 //events
-const routes = (app) => {
     app.route('/events')
     .get((req, res, next) => {
         // middleware
@@ -69,11 +67,9 @@ const routes = (app) => {
 
     // delete request
     .delete(deleteEvent);
-}
 
 //reviews
 
-const routes = (app) => {
     app.route('/reviews')
     .get((req, res, next) => {
         // middleware
