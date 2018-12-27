@@ -3,29 +3,26 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 export const EventSchema = new Schema({
-    id: {
-        type: Number
-    },
     name: {
-        type: Number
-    },
-    start_date: {
         type: String
     },
+    start_date: {
+        type: Date
+    },
     end_date: {
-        type: Number
+        type: Date
     },
     location: {
         type: String
     },
     description: {
-       type: Date
-    },
-    price: {
        type: String
     },
+    price: {
+       type: Number
+    },
     count: {
-        type: String
+        type: Number
     },
     link: {
         type: String
